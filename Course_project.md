@@ -100,7 +100,7 @@ plot(RF.conf$table, col = as.factor(RF.conf$byClass),
      main = paste("RF - Accuracy Level =",
                   round(RF.conf$overall['Accuracy'], 4)))
                   
-![rf.con](figure/rf.con.png) 
+![RF.con](figure/RF.con.png) 
 
 ### Test set
 predict(RF.modfit, base.testing)
